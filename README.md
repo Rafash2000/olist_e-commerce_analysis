@@ -21,7 +21,7 @@ A comprehensive analysis of sales data from **Olist**, the largest Brazilian mar
 
 The report is built on a professionally designed **Star Schema**.
 
-![Star Schema](images/star schema.png)
+![Star Schema](images/star_schema.png)
 
 **Technical Model Highlights:**
 * **Surrogate Keys:** Every dimension table uses a unique numerical index (`customer_sk`, `product_sk`, etc.) to optimize performance and ensure independence from system IDs.
